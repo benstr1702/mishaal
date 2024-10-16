@@ -1,11 +1,12 @@
 import "./App.css";
+import Homepage from "./pages/Homepage";
 
-function App() {
+const App: React.FC = () => {
 	return (
-		<>
-			<h1>Mishaal</h1>
-		</>
+		<div className="w-full h-full flex justify-center items-center">
+			<Homepage />
+		</div>
 	);
-}
+};
 
 export default App;
